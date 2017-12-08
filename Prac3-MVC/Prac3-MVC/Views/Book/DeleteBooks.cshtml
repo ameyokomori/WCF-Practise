@@ -1,0 +1,101 @@
+﻿@model IEnumerable<Prac3_MVC.ServiceReference1.Book>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DeleteBooks</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <div>
+        <h4>All Books in Store</h4>
+        <hr />
+
+        <form action="~/Book/DeleteBooks" method="post">
+
+            <input id="DeleteBooks" type="submit" value="DeleteBooks" />
+            <label>Index</label>
+            <select id="Index" name="Index">
+                <option value="Id">Id</option>
+                <option value="Name">Name</option>
+                <option value="Author">Author</option>
+                <option value="Year">Year</option>
+            </select>
+            <label>Value</label>
+            <input id="Value" type="number" name="Value" required/>
+        </form>
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Author)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Year)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Stock)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Year)
+                    </td>
+                    <td>
+                        $@Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>
+                </tr>
+            }
+
+        </table>
+
+    </div>
+    <p>
+        @Html.ActionLink("Back to Delete List", "DeleteBooks")
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Index").click(function (e) {
+                if ($("#Index").val() == "Id" || $("#Index").val() == "Year") {
+                    $("#Value").attr("type", "number");
+                } else {
+                    $("#Value").attr("type", "text");
+                }
+            });
+        });
+    </script>
+    
+</body>
+</html>

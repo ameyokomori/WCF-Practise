@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="5068dd3c-b7e9-4719-9f84-2c3c3b065625" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2290/BookService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="BookService1.xsd" MetadataType="Schema" ID="096c8fef-9db6-4451-bb47-58c4b76380cb" SourceId="1" SourceUrl="http://localhost:2290/BookService.svc?xsd=xsd1" />
+    <MetadataFile FileName="BookService.xsd" MetadataType="Schema" ID="5fe6a6c6-ad06-4ea9-b3a3-d88c525d346d" SourceId="1" SourceUrl="http://localhost:2290/BookService.svc?xsd=xsd0" />
+    <MetadataFile FileName="BookService.wsdl" MetadataType="Wsdl" ID="b6761149-470b-4a87-8d85-384da250fc66" SourceId="1" SourceUrl="http://localhost:2290/BookService.svc?wsdl" />
+    <MetadataFile FileName="BookService.disco" MetadataType="Disco" ID="f7989b46-c635-47c7-8b98-ff4e66def400" SourceId="1" SourceUrl="http://localhost:2290/BookService.svc?disco" />
+    <MetadataFile FileName="BookService2.xsd" MetadataType="Schema" ID="655721f3-14e6-4bbe-8c25-29470995dab0" SourceId="1" SourceUrl="http://localhost:2290/BookService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

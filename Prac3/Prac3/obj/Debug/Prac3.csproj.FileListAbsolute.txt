@@ -1,0 +1,88 @@
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\csc.exe
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\csc.exe.config
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\csc.rsp
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\csi.exe
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\csi.rsp
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\System.AppContext.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\System.Collections.Immutable.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\System.IO.FileSystem.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\vbc.exe
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\vbc.exe.config
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\vbc.rsp
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\VBCSCompiler.exe
+C:\Programs\SOA\Prac3\Prac3\bin\roslyn\VBCSCompiler.exe.config
+C:\Programs\SOA\Prac3\Prac3\bin\Prac3.dll.config
+C:\Programs\SOA\Prac3\Prac3\bin\Prac3.dll
+C:\Programs\SOA\Prac3\Prac3\bin\Prac3.pdb
+C:\Programs\SOA\Prac3\Prac3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Programs\SOA\Prac3\Prac3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Programs\SOA\Prac3\Prac3\obj\Debug\Prac3.dll
+C:\Programs\SOA\Prac3\Prac3\obj\Debug\Prac3.pdb
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\csc.exe
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\csc.exe.config
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\csc.rsp
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\csi.exe
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\csi.rsp
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\System.AppContext.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\System.Collections.Immutable.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\System.IO.FileSystem.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\vbc.exe
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\vbc.exe.config
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\vbc.rsp
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\VBCSCompiler.exe
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\roslyn\VBCSCompiler.exe.config
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\Prac3.dll.config
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\Prac3.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\Prac3.pdb
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Programs\SOA\Prac3 - 副本\Prac3\obj\Debug\Prac3.csproj.CoreCompileInputs.cache
+C:\Programs\SOA\Prac3 - 副本\Prac3\obj\Debug\Prac3.dll
+C:\Programs\SOA\Prac3 - 副本\Prac3\obj\Debug\Prac3.pdb
+C:\Programs\SOA\Prac3\Prac3\obj\Debug\Prac3.csproj.CoreCompileInputs.cache
+C:\Programs\SOA\Prac3\Prac3\bin\Antlr3.Runtime.dll
+C:\Programs\SOA\Prac3\Prac3\bin\Microsoft.Web.Infrastructure.dll
+C:\Programs\SOA\Prac3\Prac3\bin\Newtonsoft.Json.dll
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Helpers.dll
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Mvc.dll
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Optimization.dll
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Razor.dll
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.WebPages.Deployment.dll
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.WebPages.dll
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.WebPages.Razor.dll
+C:\Programs\SOA\Prac3\Prac3\bin\WebGrease.dll
+C:\Programs\SOA\Prac3\Prac3\bin\Antlr3.Runtime.pdb
+C:\Programs\SOA\Prac3\Prac3\bin\Newtonsoft.Json.xml
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Helpers.xml
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Mvc.xml
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Optimization.xml
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.Razor.xml
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.WebPages.xml
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.WebPages.Deployment.xml
+C:\Programs\SOA\Prac3\Prac3\bin\System.Web.WebPages.Razor.xml

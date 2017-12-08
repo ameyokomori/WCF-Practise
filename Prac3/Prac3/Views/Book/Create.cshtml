@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Prac3.ServiceReference1.Book>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div>
+        <form action="~/Book/CreateBook" method="post">
+
+            <label>ID</label>
+            <input id="Id" type="text" name="Id" /><br /><br />
+            <label>Name</label>
+            <input id="Name" type="text" name="Name" /><br /><br />
+            <label>Author</label>
+            <input id="Author" type="text" name="Author" /><br /><br />
+            <label>Year</label>
+            <input id="Year" type="text" name="Year" /><br /><br />
+            <label>Price</label>
+            <input id="Price" type="text" name="Price" /><br /><br />
+            <label>Stock</label>
+            <input id="Stock" type="text" name="Stock" /><br /><br />
+
+            <input id="Create" type="submit" value="Create" /> @ViewBag.Error
+
+        </form>
+        
+    </div>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

@@ -1,0 +1,87 @@
+﻿@model IEnumerable<Prac3_MVC.ServiceReference1.Book>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <div>
+        <form action="~/Book/CreateBook" method="post">
+
+            <label>ID</label>
+            <input id="Id" type="number" name="Id" required/><br /><br />
+            <label>Name</label>
+            <input id="Name" type="text" name="Name" required/><br /><br />
+            <label>Author</label>
+            <input id="Author" type="text" name="Author" required/><br /><br />
+            <label>Year</label>
+            <input id="Year" type="number" name="Year" required/><br /><br />
+            <label>Price</label>
+            <input id="Price" type="number" step="0.01" name="Price" required/><br /><br />
+            <label>Stock</label>
+            <input id="Stock" type="number" name="Stock" required/><br /><br />
+
+            <input id="Create" type="submit" value="Create" /> @ViewBag.Error
+
+        </form>     
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Author)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Year)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Stock)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Year)
+                    </td>
+                    <td>
+                        $@Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

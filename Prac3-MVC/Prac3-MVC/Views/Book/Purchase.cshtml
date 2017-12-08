@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Prac3_MVC.ServiceReference1.Book>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Purchase</title>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+   
+    <div>
+        <form action="~/Book/Purchase" method="post">  
+
+            <label>Total Budget</label>
+            <input id="Budget" type="number" step="0.01" name="Budget" required/>
+
+            <a href="#" id="AddMoreTextBox">More</a>
+            <input id="InputCount" name="InputCount" value="1" type="hidden">
+
+            <div id="InputsWrapper">
+                <label>Book Number</label>
+                <input id="Number1" type="number" name="Number1" required/>
+                <label>Amount</label>
+                <input id="Amount1" type="number" name="Amount1" required/><br />
+            </div>
+
+            <input type="submit" value="Purchase" /> @ViewBag.Result
+
+        </form>
+    </div>
+
+    <div>
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Author)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Year)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Stock)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Year)
+                    </td>
+                    <td>
+                        $@Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+    <p>
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#Budget").val(@ViewBag.Balance);
+
+            $("#AddMoreTextBox").click(function (e)
+            {
+                var inputCount = parseInt($("#InputCount").val());
+                inputCount += 1;                
+                $("#InputsWrapper").append('<label>Book Number </label><input id="Number' + inputCount + '" type="number" name="Number' + inputCount + '" required/><label> Amount </label><input id="Amount' + inputCount + '" type="number" name="Amount' + inputCount + '" required/><br/>');
+                $("#InputCount").val(inputCount);
+            });
+        });
+    </script> 
+</body>
+</html>
